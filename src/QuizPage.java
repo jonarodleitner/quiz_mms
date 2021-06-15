@@ -152,7 +152,7 @@ public class QuizPage extends Page{
 
         if(e.getSource().equals(answerPicture)){
             try {
-                points -= 1;
+                points -= 2;
                 yourPoints.setText(""+points);
                 answerPicture.pixelate();
             } catch (IOException e1) {
